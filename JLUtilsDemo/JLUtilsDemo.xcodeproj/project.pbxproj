@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C939B56D1E88EAC900794F83 /* UIButton+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C939B56C1E88EAC900794F83 /* UIButton+JLUtils.m */; };
+		C939B5701E88F1A200794F83 /* UILabel+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C939B56F1E88F1A200794F83 /* UILabel+JLUtils.m */; };
+		C939B5731E88F51300794F83 /* JLAuthorizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C939B5721E88F51300794F83 /* JLAuthorizationManager.m */; };
 		DD33B0691E87E914002071EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B0681E87E914002071EC /* main.m */; };
 		DD33B06C1E87E914002071EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B06B1E87E914002071EC /* AppDelegate.m */; };
 		DD33B06F1E87E914002071EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B06E1E87E914002071EC /* ViewController.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C939B56B1E88EAC900794F83 /* UIButton+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+JLUtils.h"; path = "../../sources/UIButton+JLUtils.h"; sourceTree = "<group>"; };
+		C939B56C1E88EAC900794F83 /* UIButton+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JLUtils.m"; path = "../../sources/UIButton+JLUtils.m"; sourceTree = "<group>"; };
+		C939B56E1E88F1A200794F83 /* UILabel+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+JLUtils.h"; path = "../../sources/UILabel+JLUtils.h"; sourceTree = "<group>"; };
+		C939B56F1E88F1A200794F83 /* UILabel+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JLUtils.m"; path = "../../sources/UILabel+JLUtils.m"; sourceTree = "<group>"; };
+		C939B5711E88F51300794F83 /* JLAuthorizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLAuthorizationManager.h; sourceTree = "<group>"; };
+		C939B5721E88F51300794F83 /* JLAuthorizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLAuthorizationManager.m; sourceTree = "<group>"; };
 		DD33B0641E87E914002071EC /* JLUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD33B0681E87E914002071EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD33B06A1E87E914002071EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +120,8 @@
 				DD33B06B1E87E914002071EC /* AppDelegate.m */,
 				DD33B06D1E87E914002071EC /* ViewController.h */,
 				DD33B06E1E87E914002071EC /* ViewController.m */,
+				C939B5711E88F51300794F83 /* JLAuthorizationManager.h */,
+				C939B5721E88F51300794F83 /* JLAuthorizationManager.m */,
 				DD33B0701E87E914002071EC /* Main.storyboard */,
 				DD33B0731E87E914002071EC /* Assets.xcassets */,
 				DD33B0751E87E914002071EC /* LaunchScreen.storyboard */,
@@ -152,6 +163,10 @@
 			children = (
 				DD33B0C51E87EBC4002071EC /* NSDictionary+JLUtils.h */,
 				DD33B0C61E87EBC4002071EC /* NSDictionary+JLUtils.m */,
+				C939B56B1E88EAC900794F83 /* UIButton+JLUtils.h */,
+				C939B56C1E88EAC900794F83 /* UIButton+JLUtils.m */,
+				C939B56E1E88F1A200794F83 /* UILabel+JLUtils.h */,
+				C939B56F1E88F1A200794F83 /* UILabel+JLUtils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -223,6 +238,7 @@
 				TargetAttributes = {
 					DD33B0631E87E914002071EC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H9ZBM36KF6;
 					};
 					DD33B07C1E87E914002071EC = {
 						CreatedOnToolsVersion = 7.2;
@@ -288,7 +304,10 @@
 			files = (
 				DD33B06F1E87E914002071EC /* ViewController.m in Sources */,
 				DD33B06C1E87E914002071EC /* AppDelegate.m in Sources */,
+				C939B5701E88F1A200794F83 /* UILabel+JLUtils.m in Sources */,
 				DD33B0C71E87EBC4002071EC /* NSDictionary+JLUtils.m in Sources */,
+				C939B56D1E88EAC900794F83 /* UIButton+JLUtils.m in Sources */,
+				C939B5731E88F51300794F83 /* JLAuthorizationManager.m in Sources */,
 				DD33B0691E87E914002071EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9ZBM36KF6;
 				INFOPLIST_FILE = JLUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jack.lin.JLUtilsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,7 +463,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H9ZBM36KF6;
 				INFOPLIST_FILE = JLUtilsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jack.lin.JLUtilsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
