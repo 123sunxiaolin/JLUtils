@@ -1,5 +1,5 @@
 //
-//  NSDictionary+JLUtils.h
+//  NSDictionary+JLUtils.m
 //  JLUtils<https://github.com/123sunxiaolin/JLUtils>
 //
 //  Created by Jacklin on 17/3/26.

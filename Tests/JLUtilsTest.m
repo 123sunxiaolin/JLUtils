@@ -27,4 +27,56 @@
     NSData *data = [dic JL_jsonData];
     XCTAssertNotNil(data);
 }
+
+- (void)testObjectOrNilForKey{
+    UIView *testView = [[UIView alloc] init];
+    NSDictionary *dic = @{@"mainView": testView};
+    id object = [dic JL_objectOrNilForKey:@"mainView"];
+    XCTAssertEqual(testView, object);
+}
+
+- (void)testStringForKey{
+    NSDictionary *dic = @{@"name":@"Jack_lin", @"age":@""};
+    XCTAssertEqual(@"Jack_lin", [dic JL_stringForKey:@"name"]);
+    XCTAssertNil([dic JL_stringForKey:@"age"]);
+}
+
+- (void)testStringOrEmptyStringForKey{
+    NSDictionary *dic = @{@"name":@"Jack_lin", @"age":@""};
+    NSString *str = [dic JL_stringOrEmptyStringForKey:@"age1"];
+    XCTAssertNotNil([dic JL_stringOrEmptyStringForKey:@"age1"]);
+}
+
+- (void)testDictionaryForKey{
+    NSDictionary *dic = @{
+                          @"info":@{@"name":@"Jack_lin", @"age":@"25"}};
+    id object = [dic JL_dictionaryForKey:@"info"];
+    NSDictionary *testDic = @{@"name":@"Jack_lin", @"age":@"25"};
+    XCTAssertEqualObjects(object, testDic);
+}
+
+- (void)testArrayForKey{
+    NSDictionary *dic = @{
+                          @"info":@[@1, @2, @3]};
+    id object = [dic JL_arrayForKey:@"info"];
+    NSArray *array = [NSArray arrayWithObjects:@1, @2, @3, nil];
+    XCTAssertEqualObjects(object, array);
+}
+
+- (void)testNumberForKey{
+    NSDictionary *dic = @{
+                          @"info":@1};
+    id object = [dic JL_numberForKey:@"info"];
+    NSNumber *number = [NSNumber numberWithInteger:1];
+    XCTAssertEqualObjects(object, number);
+}
+
+- (void)testDateForKey{
+    NSDictionary *dic = @{@"date":@"2017-03-27T03:00:00Z"};
+    id date = [dic JL_dateForKey:@"date"];
+    XCTAssertNotNil(date);
+
+    
+}
+
 @end
