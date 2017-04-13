@@ -10,6 +10,12 @@
 		C957B7291E9F7B4B00972D82 /* NSDictionary+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7241E9F7B4B00972D82 /* NSDictionary+JLUtils.m */; };
 		C957B72A1E9F7B4B00972D82 /* UIButton+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7261E9F7B4B00972D82 /* UIButton+JLUtils.m */; };
 		C957B72B1E9F7B4B00972D82 /* UILabel+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7281E9F7B4B00972D82 /* UILabel+JLUtils.m */; };
+		C957B72E1E9F7D8C00972D82 /* NSArray+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B72D1E9F7D8C00972D82 /* NSArray+JLUtils.m */; };
+		C957B7311E9F7E1900972D82 /* NSObject+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7301E9F7E1900972D82 /* NSObject+JLUtils.m */; };
+		C957B7341E9F7FAD00972D82 /* NSMutableArray+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7331E9F7FAD00972D82 /* NSMutableArray+JLUtils.m */; };
+		C957B7371E9F820700972D82 /* NSString+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7361E9F820700972D82 /* NSString+JLUtils.m */; };
+		C957B73A1E9F844A00972D82 /* UIView+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7391E9F844A00972D82 /* UIView+JLUtils.m */; };
+		C957B7401E9F859C00972D82 /* JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B73F1E9F859C00972D82 /* JLUtils.m */; };
 		DD33B0691E87E914002071EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B0681E87E914002071EC /* main.m */; };
 		DD33B06C1E87E914002071EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B06B1E87E914002071EC /* AppDelegate.m */; };
 		DD33B06F1E87E914002071EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B06E1E87E914002071EC /* ViewController.m */; };
@@ -45,6 +51,18 @@
 		C957B7261E9F7B4B00972D82 /* UIButton+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JLUtils.m"; sourceTree = "<group>"; };
 		C957B7271E9F7B4B00972D82 /* UILabel+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+JLUtils.h"; sourceTree = "<group>"; };
 		C957B7281E9F7B4B00972D82 /* UILabel+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JLUtils.m"; sourceTree = "<group>"; };
+		C957B72C1E9F7D8C00972D82 /* NSArray+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+JLUtils.h"; path = "../../JLUtils/NSArray+JLUtils.h"; sourceTree = "<group>"; };
+		C957B72D1E9F7D8C00972D82 /* NSArray+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JLUtils.m"; path = "../../JLUtils/NSArray+JLUtils.m"; sourceTree = "<group>"; };
+		C957B72F1E9F7E1900972D82 /* NSObject+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+JLUtils.h"; path = "../../JLUtils/NSObject+JLUtils.h"; sourceTree = "<group>"; };
+		C957B7301E9F7E1900972D82 /* NSObject+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JLUtils.m"; path = "../../JLUtils/NSObject+JLUtils.m"; sourceTree = "<group>"; };
+		C957B7321E9F7FAD00972D82 /* NSMutableArray+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+JLUtils.h"; path = "../../JLUtils/NSMutableArray+JLUtils.h"; sourceTree = "<group>"; };
+		C957B7331E9F7FAD00972D82 /* NSMutableArray+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+JLUtils.m"; path = "../../JLUtils/NSMutableArray+JLUtils.m"; sourceTree = "<group>"; };
+		C957B7351E9F820700972D82 /* NSString+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+JLUtils.h"; path = "../../JLUtils/NSString+JLUtils.h"; sourceTree = "<group>"; };
+		C957B7361E9F820700972D82 /* NSString+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+JLUtils.m"; path = "../../JLUtils/NSString+JLUtils.m"; sourceTree = "<group>"; };
+		C957B7381E9F844A00972D82 /* UIView+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+JLUtils.h"; path = "../../JLUtils/UIView+JLUtils.h"; sourceTree = "<group>"; };
+		C957B7391E9F844A00972D82 /* UIView+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JLUtils.m"; path = "../../JLUtils/UIView+JLUtils.m"; sourceTree = "<group>"; };
+		C957B73E1E9F859C00972D82 /* JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLUtils.h; path = ../../JLUtils/JLUtils.h; sourceTree = "<group>"; };
+		C957B73F1E9F859C00972D82 /* JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLUtils.m; path = ../../JLUtils/JLUtils.m; sourceTree = "<group>"; };
 		DD33B0641E87E914002071EC /* JLUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD33B0681E87E914002071EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD33B06A1E87E914002071EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +180,18 @@
 				C957B7261E9F7B4B00972D82 /* UIButton+JLUtils.m */,
 				C957B7271E9F7B4B00972D82 /* UILabel+JLUtils.h */,
 				C957B7281E9F7B4B00972D82 /* UILabel+JLUtils.m */,
+				C957B7381E9F844A00972D82 /* UIView+JLUtils.h */,
+				C957B7391E9F844A00972D82 /* UIView+JLUtils.m */,
+				C957B72C1E9F7D8C00972D82 /* NSArray+JLUtils.h */,
+				C957B72D1E9F7D8C00972D82 /* NSArray+JLUtils.m */,
+				C957B7321E9F7FAD00972D82 /* NSMutableArray+JLUtils.h */,
+				C957B7331E9F7FAD00972D82 /* NSMutableArray+JLUtils.m */,
+				C957B72F1E9F7E1900972D82 /* NSObject+JLUtils.h */,
+				C957B7301E9F7E1900972D82 /* NSObject+JLUtils.m */,
+				C957B7351E9F820700972D82 /* NSString+JLUtils.h */,
+				C957B7361E9F820700972D82 /* NSString+JLUtils.m */,
+				C957B73E1E9F859C00972D82 /* JLUtils.h */,
+				C957B73F1E9F859C00972D82 /* JLUtils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -297,12 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C957B72E1E9F7D8C00972D82 /* NSArray+JLUtils.m in Sources */,
 				DD33B06F1E87E914002071EC /* ViewController.m in Sources */,
 				C957B72A1E9F7B4B00972D82 /* UIButton+JLUtils.m in Sources */,
+				C957B7371E9F820700972D82 /* NSString+JLUtils.m in Sources */,
 				DD33B06C1E87E914002071EC /* AppDelegate.m in Sources */,
 				C957B72B1E9F7B4B00972D82 /* UILabel+JLUtils.m in Sources */,
+				C957B73A1E9F844A00972D82 /* UIView+JLUtils.m in Sources */,
 				C957B7291E9F7B4B00972D82 /* NSDictionary+JLUtils.m in Sources */,
 				DD33B0691E87E914002071EC /* main.m in Sources */,
+				C957B7341E9F7FAD00972D82 /* NSMutableArray+JLUtils.m in Sources */,
+				C957B7311E9F7E1900972D82 /* NSObject+JLUtils.m in Sources */,
+				C957B7401E9F859C00972D82 /* JLUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
