@@ -16,6 +16,8 @@
 		C957B7371E9F820700972D82 /* NSString+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7361E9F820700972D82 /* NSString+JLUtils.m */; };
 		C957B73A1E9F844A00972D82 /* UIView+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7391E9F844A00972D82 /* UIView+JLUtils.m */; };
 		C957B7401E9F859C00972D82 /* JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B73F1E9F859C00972D82 /* JLUtils.m */; };
+		C957B7431E9F889E00972D82 /* NSDate+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7421E9F889E00972D82 /* NSDate+JLUtils.m */; };
+		C957B7461E9F897A00972D82 /* NSData+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7451E9F897A00972D82 /* NSData+JLUtils.m */; };
 		DD33B0691E87E914002071EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B0681E87E914002071EC /* main.m */; };
 		DD33B06C1E87E914002071EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B06B1E87E914002071EC /* AppDelegate.m */; };
 		DD33B06F1E87E914002071EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B06E1E87E914002071EC /* ViewController.m */; };
@@ -63,6 +65,10 @@
 		C957B7391E9F844A00972D82 /* UIView+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+JLUtils.m"; path = "../../JLUtils/UIView+JLUtils.m"; sourceTree = "<group>"; };
 		C957B73E1E9F859C00972D82 /* JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLUtils.h; path = ../../JLUtils/JLUtils.h; sourceTree = "<group>"; };
 		C957B73F1E9F859C00972D82 /* JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLUtils.m; path = ../../JLUtils/JLUtils.m; sourceTree = "<group>"; };
+		C957B7411E9F889E00972D82 /* NSDate+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+JLUtils.h"; path = "../../JLUtils/NSDate+JLUtils.h"; sourceTree = "<group>"; };
+		C957B7421E9F889E00972D82 /* NSDate+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+JLUtils.m"; path = "../../JLUtils/NSDate+JLUtils.m"; sourceTree = "<group>"; };
+		C957B7441E9F897A00972D82 /* NSData+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+JLUtils.h"; path = "../../JLUtils/NSData+JLUtils.h"; sourceTree = "<group>"; };
+		C957B7451E9F897A00972D82 /* NSData+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+JLUtils.m"; path = "../../JLUtils/NSData+JLUtils.m"; sourceTree = "<group>"; };
 		DD33B0641E87E914002071EC /* JLUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD33B0681E87E914002071EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD33B06A1E87E914002071EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,6 +198,10 @@
 				C957B7361E9F820700972D82 /* NSString+JLUtils.m */,
 				C957B73E1E9F859C00972D82 /* JLUtils.h */,
 				C957B73F1E9F859C00972D82 /* JLUtils.m */,
+				C957B7411E9F889E00972D82 /* NSDate+JLUtils.h */,
+				C957B7421E9F889E00972D82 /* NSDate+JLUtils.m */,
+				C957B7441E9F897A00972D82 /* NSData+JLUtils.h */,
+				C957B7451E9F897A00972D82 /* NSData+JLUtils.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -334,10 +344,12 @@
 				DD33B06C1E87E914002071EC /* AppDelegate.m in Sources */,
 				C957B72B1E9F7B4B00972D82 /* UILabel+JLUtils.m in Sources */,
 				C957B73A1E9F844A00972D82 /* UIView+JLUtils.m in Sources */,
+				C957B7431E9F889E00972D82 /* NSDate+JLUtils.m in Sources */,
 				C957B7291E9F7B4B00972D82 /* NSDictionary+JLUtils.m in Sources */,
 				DD33B0691E87E914002071EC /* main.m in Sources */,
 				C957B7341E9F7FAD00972D82 /* NSMutableArray+JLUtils.m in Sources */,
 				C957B7311E9F7E1900972D82 /* NSObject+JLUtils.m in Sources */,
+				C957B7461E9F897A00972D82 /* NSData+JLUtils.m in Sources */,
 				C957B7401E9F859C00972D82 /* JLUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
