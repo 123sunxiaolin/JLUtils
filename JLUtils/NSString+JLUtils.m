@@ -1,9 +1,12 @@
+
+// NSString+JLUtils.m
+//  JLUtils<https://github.com/123sunxiaolin/JLUtils>
 //
-//  NSString+JLUtils.m
-//  JLUtilsDemo
-//
-//  Created by perfect on 2017/4/13.
+//  Created by Jacklin on 2017/4/13.
 //  Copyright © 2017年 com.jack.lin. All rights reserved.
+//
+//  This source code is licensed under the MIT-style license found in the
+//  LICENSE file in the root directory of this source tree.
 //
 
 #import "NSString+JLUtils.h"

@@ -1,9 +1,12 @@
 //
 //  JLUtils.m
-//  JLUtilsDemo
+//  JLUtils<https://github.com/123sunxiaolin/JLUtils>
 //
-//  Created by perfect on 2017/4/13.
+//  Created by Jacklin on 17/3/27.
 //  Copyright © 2017年 com.jack.lin. All rights reserved.
+//
+//  This source code is licensed under the MIT-style license found in the
+//  LICENSE file in the root directory of this source tree.
 //
 
 #import "JLUtils.h"
