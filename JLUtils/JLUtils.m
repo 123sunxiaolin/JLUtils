@@ -10,20 +10,8 @@
 //
 
 #import "JLUtils.h"
-#import "AppDelegate.h"
 
 @implementation JLUtils
-
-+ (UIImage *)JL_screenImageWithSize:(CGSize)imageSize{
-    
-    UIGraphicsBeginImageContext(imageSize);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    [app.window.layer renderInContext:context];//使用当前窗口大小截屏
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    return image;
-}
 
 + (UIImage *)JL_screenImageWithView:(UIView *)targetView Size:(CGSize)imageSize isOpaque:(BOOL)isOpaque scale:(CGFloat)scale{
     

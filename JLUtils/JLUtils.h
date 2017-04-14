@@ -18,14 +18,6 @@
 @interface JLUtils : NSObject
 /**
  *  获取当前屏幕的截图，包含整个屏幕
- *
- *  @param imageSize 生成截图的尺寸
- *
- *  @return 截图对象
- */
-+ (UIImage *)JL_screenImageWithSize:(CGSize)imageSize;
-/**
- *  获取当前屏幕的截图，包含整个屏幕
  *  @param targetView 需要渲染的视图
  *  @param imageSize 生成截图的尺寸
  *  @param isOpaque  是否透明
