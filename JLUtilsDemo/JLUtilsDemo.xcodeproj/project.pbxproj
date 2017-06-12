@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91828821EEE92DB0007CC77 /* UIButton+InsensitiveTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = C91828811EEE92DB0007CC77 /* UIButton+InsensitiveTouch.m */; };
 		C957B7291E9F7B4B00972D82 /* NSDictionary+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7241E9F7B4B00972D82 /* NSDictionary+JLUtils.m */; };
 		C957B72A1E9F7B4B00972D82 /* UIButton+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7261E9F7B4B00972D82 /* UIButton+JLUtils.m */; };
 		C957B72B1E9F7B4B00972D82 /* UILabel+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C957B7281E9F7B4B00972D82 /* UILabel+JLUtils.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C91828801EEE92DB0007CC77 /* UIButton+InsensitiveTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+InsensitiveTouch.h"; path = "../../JLUtils/UIButton+InsensitiveTouch.h"; sourceTree = "<group>"; };
+		C91828811EEE92DB0007CC77 /* UIButton+InsensitiveTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+InsensitiveTouch.m"; path = "../../JLUtils/UIButton+InsensitiveTouch.m"; sourceTree = "<group>"; };
 		C957B7231E9F7B4B00972D82 /* NSDictionary+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JLUtils.h"; sourceTree = "<group>"; };
 		C957B7241E9F7B4B00972D82 /* NSDictionary+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JLUtils.m"; sourceTree = "<group>"; };
 		C957B7251E9F7B4B00972D82 /* UIButton+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JLUtils.h"; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 				C957B7241E9F7B4B00972D82 /* NSDictionary+JLUtils.m */,
 				C957B7251E9F7B4B00972D82 /* UIButton+JLUtils.h */,
 				C957B7261E9F7B4B00972D82 /* UIButton+JLUtils.m */,
+				C91828801EEE92DB0007CC77 /* UIButton+InsensitiveTouch.h */,
+				C91828811EEE92DB0007CC77 /* UIButton+InsensitiveTouch.m */,
 				C957B7271E9F7B4B00972D82 /* UILabel+JLUtils.h */,
 				C957B7281E9F7B4B00972D82 /* UILabel+JLUtils.m */,
 				C957B7381E9F844A00972D82 /* UIView+JLUtils.h */,
@@ -345,6 +350,7 @@
 				C957B7341E9F7FAD00972D82 /* NSMutableArray+JLUtils.m in Sources */,
 				C957B7311E9F7E1900972D82 /* NSObject+JLUtils.m in Sources */,
 				C957B7461E9F897A00972D82 /* NSData+JLUtils.m in Sources */,
+				C91828821EEE92DB0007CC77 /* UIButton+InsensitiveTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
