@@ -27,6 +27,7 @@
 		DD33B0821E87E914002071EC /* JLUtilsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B0811E87E914002071EC /* JLUtilsDemoTests.m */; };
 		DD33B08D1E87E914002071EC /* JLUtilsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B08C1E87E914002071EC /* JLUtilsDemoUITests.m */; };
 		DD33B0C91E87F2E2002071EC /* JLUtilsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DD33B0C81E87F2E2002071EC /* JLUtilsTest.m */; };
+		E75E348F238FEF08005FFF32 /* UIButton+JLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E348C238FEF07005FFF32 /* UIButton+JLUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,8 @@
 		DD33B08C1E87E914002071EC /* JLUtilsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLUtilsDemoUITests.m; sourceTree = "<group>"; };
 		DD33B08E1E87E914002071EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD33B0C81E87F2E2002071EC /* JLUtilsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JLUtilsTest.m; path = ../../Tests/JLUtilsTest.m; sourceTree = "<group>"; };
+		E75E348B238FEF07005FFF32 /* UIButton+JLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+JLUtils.h"; path = "../../JLUtils/UIButton+JLUtils.h"; sourceTree = "<group>"; };
+		E75E348C238FEF07005FFF32 /* UIButton+JLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+JLUtils.m"; path = "../../JLUtils/UIButton+JLUtils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 		DD33B0C41E87EB01002071EC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E75E348B238FEF07005FFF32 /* UIButton+JLUtils.h */,
+				E75E348C238FEF07005FFF32 /* UIButton+JLUtils.m */,
 				C957B7231E9F7B4B00972D82 /* NSDictionary+JLUtils.h */,
 				C957B7241E9F7B4B00972D82 /* NSDictionary+JLUtils.m */,
 				C957B7251E9F7B4B00972D82 /* UIButton+JLUtils.h */,
@@ -290,6 +295,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -350,6 +356,7 @@
 				C957B7341E9F7FAD00972D82 /* NSMutableArray+JLUtils.m in Sources */,
 				C957B7311E9F7E1900972D82 /* NSObject+JLUtils.m in Sources */,
 				C957B7461E9F897A00972D82 /* NSData+JLUtils.m in Sources */,
+				E75E348F238FEF08005FFF32 /* UIButton+JLUtils.m in Sources */,
 				C91828821EEE92DB0007CC77 /* UIButton+InsensitiveTouch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
